@@ -221,6 +221,7 @@ footer{
 .button-saiba-mais:hover{
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 .senai{
