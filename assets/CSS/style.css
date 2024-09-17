@@ -27,6 +27,10 @@ body{
     margin-left: 7%;
 }
 
+.container4{
+    margin-top: 45px;
+}
+
 section{
     display: flex;
     justify-content: center;
@@ -46,12 +50,19 @@ section{
 .menu-left{
     display: flex;
     flex: 2;
+    justify-content: end;
 }
 
 .menu-right{
     display: flex;
     flex: 1;
     align-items: center;
+    justify-content: end;
+    gap: 8px;
+}
+
+.menu-right a {
+    color: darkgray;
 }
 
 .logo{
@@ -65,18 +76,20 @@ section{
     margin: 1px;
 }
 
+
 .links{
     display: flex;
     align-items: center;
     margin: 10px;
 }
 
-.links, a{
+.links a{
     text-decoration: none;
     margin: 7px;
     font-weight: bold;
-    color: darkgray;
     font-family: "Open Sans", sans-serif;
+    color: darkgray;
+
 }
 
 a:hover{
@@ -101,16 +114,19 @@ a:hover{
     height: 100px;
 }
 
-.news-left{
+.news-left {
     flex: 2;
     height: 150px;
     align-items: center;
 }
 
+
 .news-right{
     flex: 1;
     align-items: center;
     height: 150px;
+    margin-top: 50px;
+    margin-left: 70px;
 }
 
 .news-left p{
@@ -267,3 +283,6 @@ footer{
     object-fit: cover;
     overflow: hidden;
 }
+
+
+
